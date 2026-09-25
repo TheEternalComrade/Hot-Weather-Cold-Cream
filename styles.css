@@ -10,7 +10,59 @@ footer{
     left: 47%;
 }
 
+.green{
+    color: green;
+}
+
+.green:hover{
+    transform: scale(1.5);
+}
+
+
+.yellow{
+    color: rgb(185, 185, 87);
+}
+.yellow:hover{
+    transform: scale(0.5);
+}
+
+
+.brown{
+    color: brown;
+}
+.brown:hover{
+    color:black;
+}
+
 img{
     width: 50vw;
-    height:50vh;
+    height: 50vh;
 }
+
+.not-chopped{
+    width: 20vw;
+}
+
+ul{
+    position: fixed;
+    left: 40vw;
+}
+
+li{
+    list-style-type: none;
+    font-size: 3rem;
+    background-color: blueviolet;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+li:hover{
+    transform: scale(1.5);
+}
+
+.no-underline{
+    text-decoration: none;
+    color: white;
+}
+
